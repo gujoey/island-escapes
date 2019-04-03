@@ -11,6 +11,7 @@ import {
 
 import App from './components/App/App.jsx';
 import HomePage from './pages/homepage/homepage';
+import Aboutpage from './pages/aboutpage/aboutpage';
 
 
 const routes = (
@@ -18,6 +19,7 @@ const routes = (
         <Switch>
             <App>
 				<Route path="/" exact component={HomePage} />
+				<Route path="/about" exact component={Aboutpage} />
             </App>
         </Switch> 
     </HashRouter>

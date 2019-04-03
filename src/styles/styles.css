@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
+h1 {
+  font-size: 2.25rem; }
+
+a {
+  color: #ffffff; }
+  a:hover {
+    color: #000000; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.navbar-default {
+  background-color: #00aeef;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center; }
+  .navbar-default a {
+    color: #ffffff !important; }
+  .navbar-default__hamburger {
+    background: none !important;
+    border: none !important; }
+    .navbar-default__hamburger--white {
+      background-color: #ffffff !important; }
+  .navbar-default__branding {
+    font: 48px bold;
+    padding: 0; }
+    @media (max-width: 767px) {
+      .navbar-default__branding {
+        padding: 12px;
+        font: 20px bold; } }
+  .navbar-default__nav {
+    float: right; }
+    .navbar-default__nav a:hover {
+      color: #000000 !important; }
+    .navbar-default__nav--active a {
+      color: #000000 !important; }
+
+.panel-footer {
+  height: 100px;
+  background-color: #00aeef;
+  text-align: center;
+  color: white;
+  margin-top: 30px; }
+  .panel-footer__copyright {
+    margin: 28px !important;
+    display: block; }
+
+.col-about {
+  border: 2px solid #00aeef;
+  padding: 15px; }
+  @media (max-width: 991px) {
+    .col-about--margin {
+      margin: 30px 0 30px 0; } }
+  .col-about__btn:hover {
+    background-color: #07db61 !important;
+    color: #000000; }
+
+.homepageContainer {
+  margin-top: 30px; }
+
+.row {
+  margin-top: 30px; }
+
+.col-home {
+  border: 25px solid #00aeef;
+  padding: 15px;
+  height: 100%; }
+  @media (max-width: 991px) {
+    .col-home--margin {
+      margin: 30px 0 0 0; } }
+  .col-home__list {
+    list-style: none;
+    padding-left: 0;
+    text-align: center; }
+    .col-home__list li a {
+      color: black;
+      text-decoration: none; }
+      .col-home__list li a:hover {
+        color: #00aeef; }
+    .col-home__list--active {
+      text-decoration: underline; }
+
+.contact-form {
+  background-color: #00aeef;
+  padding: 30px;
+  margin: 30px 30px 0 30px;
+  color: #ffffff; }
+  .contact-form::after {
+    content: "";
+    display: block;
+    clear: both; }
+  .contact-form__input {
+    border: 3px solid #000000 !important;
+    border-radius: 0 !important; }
+  .contact-form__btn {
+    margin-top: 15px;
+    float: right;
+    color: #ffffff;
+    background-color: #07db61;
+    border-style: none; }
+    .contact-form__btn:hover {
+      background-color: #ffffff !important;
+      color: #000000 !important; }
