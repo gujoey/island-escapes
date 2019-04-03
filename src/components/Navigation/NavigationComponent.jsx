@@ -25,25 +25,25 @@ export default class NavigationComponent extends React.Component {
 	}
 
 	render() {
-	return (
-		<Navbar color="light" light expand="md">
-			<NavbarBrand href="/">Island Escapes</NavbarBrand>
-			<NavbarToggler onClick={this.toggle} />
+		return (
+			<Navbar color="light" light expand="md">
+				<NavbarBrand href="/">Island Escapes</NavbarBrand>
+				<NavbarToggler onClick={this.toggle} />
 
-			<Collapse isOpen={this.state.isOpen} navbar>
-				<Nav className="[ ml-auto ]" navbar>
-					<NavItem>
-						<NavLink href="/">Home</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink href="/">About</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink href="/">Contact</NavLink>
-					</NavItem>
-				</Nav>
-			</Collapse>
-		</Navbar>
-	);
+				<Collapse isOpen={this.state.isOpen} navbar>
+					<Nav className="[ ml-auto ]" navbar>
+						<NavItem>
+							<NavLink href="/">Home</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href="/">About</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href="/">Contact</NavLink>
+						</NavItem>
+					</Nav>
+				</Collapse>
+			</Navbar>
+		);
 	}
 }
