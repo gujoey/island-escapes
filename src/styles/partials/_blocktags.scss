@@ -1,0 +1,14 @@
+h1{
+	@include fontsize(36);
+}
+
+a{
+	color: $white;
+	&:hover{
+		color: $black;
+	}
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,12 @@
+.panel-footer{
+	height: 100px;
+	background-color: $blue;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+	
+	&__copyright{
+		margin: 28px!important;
+		display: block;
+	}
+}

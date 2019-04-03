@@ -1,0 +1,35 @@
+.navbar-default{
+	background-color: $blue;
+	font-weight: bold;
+	padding: 15px;
+	text-align: center;
+	& a{ //added 'a' to override bootsrtap spesificity
+		color: $white !important;
+	}
+	&__hamburger{
+		background: none !important;
+		border: none !important;
+		&--white{
+			background-color: $white !important;
+		}
+	}
+	&__branding{
+		font: 48px bold;
+		padding: 0; 
+		@media (max-width: $BPsm){
+			padding: 12px;
+			font: 20px bold;
+		}
+	}	
+	&__nav{
+		float: right;
+		& a{ //added 'a' to override bootsrtap spesificity
+			&:hover{
+				color: $black !important;
+			}
+		}
+		&--active a{ //added 'a' to override bootsrtap spesificity
+			color: $black !important;
+		}
+	}
+}
