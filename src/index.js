@@ -13,6 +13,7 @@ import App from './components/App/App.jsx';
 import HomePage from './pages/homepage/homepage';
 import Aboutpage from './pages/aboutpage/aboutpage';
 import Contactpage from './pages/contactpage/contactpage';
+import ContactSuccessPage from './pages/contactpage/contact-successpage';
 
 
 const routes = (
@@ -22,6 +23,7 @@ const routes = (
 				<Route path="/" exact component={HomePage} />
 				<Route path="/about" exact component={Aboutpage} />
 				<Route path="/contact" exact component={Contactpage} />
+				<Route path="/contact-success" exact component={ContactSuccessPage} />
             </App>
         </Switch> 
     </HashRouter>

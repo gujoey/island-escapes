@@ -93,6 +93,12 @@ body {
   .contact-form__input {
     border: 3px solid #000000 !important;
     border-radius: 0 !important; }
+    .contact-form__input--error {
+      color: red; }
+    .contact-form__input--required {
+      color: red; }
+  .contact-form__info {
+    color: grey; }
   .contact-form__btn {
     margin-top: 15px;
     float: right;
