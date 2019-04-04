@@ -1,21 +1,15 @@
 import React from 'react';
 import {
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators
+	Carousel,
+	CarouselItem,
+	CarouselControl,
+	CarouselIndicators
 } from 'reactstrap';
 
 const items = [
-  {
-    src: require('./../../img/photos/banner-1.jpg'),
-  },
-  {
-    src: require('./../../img/photos/banner-2.jpg'),
-  },
-  {
-    src: require('./../../img/photos/banner-3.jpg'),
-  }
+	{src: require('./../../img/photos/banner-1.jpg')},
+	{src: require('./../../img/photos/banner-2.jpg')},
+	{src: require('./../../img/photos/banner-3.jpg')}
 ];
 
 export default class CarouselComponent extends React.Component {
@@ -29,57 +23,57 @@ export default class CarouselComponent extends React.Component {
     this.onExited = this.onExited.bind(this);
   }
 
-  onExiting() {
-    this.animating = true;
-  }
+	onExiting() {
+		this.animating = true;
+	}
 
-  onExited() {
-    this.animating = false;
-  }
+	onExited() {
+		this.animating = false;
+	}
 
-  next() {
-    if (this.animating) return;
-    const nextIndex = this.state.activeIndex === items.length - 1 ? 0 : this.state.activeIndex + 1;
-    this.setState({ activeIndex: nextIndex });
-  }
+	next() {
+		if (this.animating) return;
+		const nextIndex = this.state.activeIndex === items.length - 1 ? 0 : this.state.activeIndex + 1;
+		this.setState({ activeIndex: nextIndex });
+	}
 
-  previous() {
-    if (this.animating) return;
-    const nextIndex = this.state.activeIndex === 0 ? items.length - 1 : this.state.activeIndex - 1;
-    this.setState({ activeIndex: nextIndex });
-  }
+	previous() {
+		if (this.animating) return;
+		const nextIndex = this.state.activeIndex === 0 ? items.length - 1 : this.state.activeIndex - 1;
+		this.setState({ activeIndex: nextIndex });
+	}
 
-  goToIndex(newIndex) {
-    if (this.animating) return;
-    this.setState({ activeIndex: newIndex });
-  }
+	goToIndex(newIndex) {
+		if (this.animating) return;
+		this.setState({ activeIndex: newIndex });
+	}
 
-  render() {
-    const { activeIndex } = this.state;
+	render() {
+	const { activeIndex } = this.state;
 
-    const slides = items.map((item) => {
-      return (
-        <CarouselItem
-          onExiting={this.onExiting}
-          onExited={this.onExited}
-          key={item.src}
-        >
-          <img className="[ img-fluid ]" src={item.src} alt={item.altText} />
-        </CarouselItem>
-      );
-    });
+	const slides = items.map((item) => {
+	return (
+		<CarouselItem
+			onExiting={this.onExiting}
+			onExited={this.onExited}
+			key={item.src}
+		>
+			<img className="[ img-fluid ]" src={item.src} alt={item.altText} />
+		</CarouselItem>
+		);
+	});
 
-    return (
-      <Carousel
-        activeIndex={activeIndex}
-        next={this.next}
-        previous={this.previous}
-      >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
-        {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
-      </Carousel>
-    );
-  }
+	return (
+		<Carousel
+			activeIndex={activeIndex}
+			next={this.next}
+			previous={this.previous}
+		>
+			<CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+			{slides}
+			<CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
+			<CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+		</Carousel>
+		);
+	}
 }

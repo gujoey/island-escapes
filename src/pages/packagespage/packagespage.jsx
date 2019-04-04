@@ -2,6 +2,8 @@ import React from 'react';
 import CarouselComponent from './../../components/Carousel/CarouselComponent';
 import PackagesComponent from './../../components/Packages/PackagesComponent';
 import { packages } from './../../components/Packages/PackageDestinationComponent';
+import { Row } from 'reactstrap';
+
 
 export default class Packagespage extends React.Component{
 	constructor(props){
@@ -35,11 +37,11 @@ export default class Packagespage extends React.Component{
 					image = {value.image}
 					destination = {value.destination}
 					description = {value.description}
+					price = {value.price}
 					key = {key}
 				/>
 			);
 		});
-		
 	}
 	
 	render(){
@@ -49,9 +51,9 @@ export default class Packagespage extends React.Component{
 		return(
 			<div>
 				<CarouselComponent/>
-				<div className="[ row ]">
+				<Row>
 					{app.state.allPackages}
-				</div>
+				</Row>
 			</div>
 		);
 	}

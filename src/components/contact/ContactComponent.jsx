@@ -22,8 +22,7 @@ export default class ContactComponent extends React.Component{
 	
 	render(){
 		let app = this;
-		
-		
+	
 		return(
 			<Form>
 				<FormGroup>
