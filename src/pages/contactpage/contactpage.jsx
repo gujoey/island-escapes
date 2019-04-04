@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactComponent from './../../components/contact/ContactComponent';
+import ContactComponent from './../../components/Contact/ContactComponent';
 
 export default class ContactPage extends React.Component{
 	constructor(props){

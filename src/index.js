@@ -11,7 +11,7 @@ import {
 
 import App from './components/App/App.jsx';
 import HomePage from './pages/homepage/homepage';
-import Aboutpage from './pages/aboutpage/aboutpage';
+import Packagespage from './pages/packagespage/packagespage';
 import Contactpage from './pages/contactpage/contactpage';
 import ContactSuccessPage from './pages/contactpage/contact-successpage';
 
@@ -21,7 +21,7 @@ const routes = (
         <Switch>
             <App>
 				<Route path="/" exact component={HomePage} />
-				<Route path="/about" exact component={Aboutpage} />
+				<Route path="/packages" exact component={Packagespage} />
 				<Route path="/contact" exact component={Contactpage} />
 				<Route path="/contact-success" exact component={ContactSuccessPage} />
             </App>
