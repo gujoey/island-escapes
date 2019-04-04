@@ -39,7 +39,7 @@ export default class NavigationComponent extends React.Component {
 							<NavLink href="#/about">About</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="#/">Contact</NavLink>
+							<NavLink href="#/contact">Contact</NavLink>
 						</NavItem>
 					</Nav>
 				</Collapse>
