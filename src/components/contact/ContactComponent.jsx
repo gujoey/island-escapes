@@ -44,7 +44,7 @@ export default class ContactComponent extends React.Component{
 				<FormGroup>
 					<Label for="message">Message</Label>
 					<Input type="textarea" innerRef={(node) => app.messageInput = node} name="message" id="message"
-						placeholder="Message (if no message is provided, we'll contact you directly as soon as possible)"
+						placeholder="Message (if you don't leave any message, we'll contact you directly as soon as possible)"
 					/>
 				</FormGroup>
 				

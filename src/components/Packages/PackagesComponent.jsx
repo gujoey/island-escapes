@@ -8,7 +8,7 @@ export default class PackagesComponent extends React.Component{
 		return(
 			<div className="[ col-md-4 d-flex flex-column mb-4 ]">
 				<div className="[ col-about ]">
-					<img className="[ img-fluid ]" src={app.props.image} alt={app.props.destination}/>
+					<img className="[ img-fluid ]" src={require("./../../img/photos/destinations/" + app.props.image + ".jpg")} alt={app.props.destination}/>
 					<h1>{app.props.destination}</h1>
 					<p>{app.props.description}</p>
 					<button type="button" className="btn btn-primary col-about__btn">View More</button>

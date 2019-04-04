@@ -1,32 +1,32 @@
 export const packages = [
 			{
-				image: "https://via.placeholder.com/350x150",
-				destination: "New York",
+				image: "santorini",
+				destination: "Santorini",
 				description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 			},
 			{
-				image: "https://via.placeholder.com/350x150",
-				destination: "Los Angeles",
+				image: "mykonos",
+				destination: "Mykonos",
 				description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 			},
 			{
-				image: "https://via.placeholder.com/350x150",
-				destination: "Tokyo",
+				image: "bali",
+				destination: "Bali",
 				description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 			},
 			{
-				image: "https://via.placeholder.com/350x150",
-				destination: "Dubai",
+				image: "hawaii",
+				destination: "Hawaii",
 				description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 			},
 			{
-				image: "https://via.placeholder.com/350x150",
-				destination: "London",
+				image: "bora-bora",
+				destination: "Bora Bora",
 				description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 			},
 			{
-				image: "https://via.placeholder.com/350x150",
-				destination: "Oslo",
+				image: "capri",
+				destination: "Capri",
 				description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 			},		
 		];
