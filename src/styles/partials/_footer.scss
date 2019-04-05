@@ -10,6 +10,8 @@
 	width: 100%;
 	
 	&__copyright{
+		font-family: $navigation;
+		font-weight: bold;
 		padding-top: 25px;
 		display: block;
 	}

@@ -55,6 +55,8 @@ body::after {
   bottom: 0;
   width: 100%; }
   .panel-footer__copyright {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
     padding-top: 25px;
     display: block; }
 
@@ -63,7 +65,9 @@ body::after {
   .packages-container__header {
     font-family: "Lobster", cursive;
     font-size: 50px;
-    text-align: center; }
+    text-align: center;
+    color: #fd5e53;
+    margin-bottom: 30px; }
 
 .packages-column {
   border: 2px solid #fd5e53;
@@ -90,18 +94,29 @@ body::after {
 
 .homepageContainer {
   margin-top: 30px; }
+  .homepageContainer__row {
+    margin-bottom: -15px; }
 
 .col-home {
   border: 2px solid #fd5e53;
   border-radius: 5px;
   padding: 15px;
   height: 100%;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-family: "Raleway", sans-serif; }
+  .col-home--grey {
+    color: grey; }
   .col-home__header {
     font-family: "Lobster", cursive;
+    color: #fd5e53;
     text-align: center;
     margin-bottom: 15px;
     font-size: 2.5rem; }
+  .col-home__header-two {
+    font-family: "Comfortaa", cursive;
+    font-size: 1.75rem; }
+  .col-home__overlay:hover {
+    -webkit-filter: brightness(50%); }
   .col-home__img-text {
     position: absolute;
     top: 50%;
@@ -115,7 +130,8 @@ body::after {
   margin-top: 30px; }
   .contact-container__header {
     font-size: 3.125rem;
-    text-align: center; }
+    text-align: center;
+    color: #fd5e53; }
 
 .contact-form {
   padding: 30px;

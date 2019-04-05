@@ -1,5 +1,8 @@
 .homepageContainer{
 	margin-top: 30px;
+	&__row{
+		margin-bottom: -15px;
+	}
 }
 
 .col-home{
@@ -8,12 +11,29 @@
 	padding: 15px;
 	height: 100%;
 	margin-top: 30px;
+	font-family: $content;
+	
+	&--grey{
+		color: $grey;
+	}
 	
 	&__header{
 		font-family: $headers;
+		color: $orange;
 		text-align: center;
 		margin-bottom: 15px;
 		@include fontsize(40);
+	}
+	
+	&__header-two{
+		font-family: $headerTwo;
+		@include fontsize(28);
+	}
+	
+	&__overlay{
+		&:hover{
+			-webkit-filter: brightness(50%);
+		}
 	}
 	
 	&__img-text{
