@@ -1,5 +1,4 @@
 import React from 'react';
-import CarouselComponent from './../../components/Carousel/CarouselComponent';
 import PackagesComponent from './../../components/Packages/PackagesComponent';
 import { packages } from './../../components/Packages/PackageDestinationComponent';
 import { Row } from 'reactstrap';
@@ -49,8 +48,8 @@ export default class Packagespage extends React.Component{
 		app.createPackages();
 		
 		return(
-			<div>
-				<CarouselComponent/>
+			<div className="[ packages-container ]">
+				<h1 class="[ packages-container__header ]">Packages</h1>
 				<Row>
 					{app.state.allPackages}
 				</Row>

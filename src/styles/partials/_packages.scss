@@ -1,16 +1,40 @@
-.col-about{
-	border: 2px solid $blue;
+//container
+.packages-container{
+	margin-top: 30px;
+	&__header{
+		font-family: $headers;
+		font-size: 50px;
+		text-align: center;
+	}
+}
+
+//columns
+.packages-column{
+	border: 2px solid $orange;
+	border-radius: 5px;
 	padding: 15px;
+	font-family: $content;
+
+	&__header{
+		font-family: $headers;
+	}
 	
-	&--margin{
-		@media(max-width:$BPmd){
-			margin: 30px 0 30px 0;
-		}
+	&__price{
+		font-weight:bolder;
+		text-align: center;
+		font-size: 20px;
 	}
 	
 	&__btn{
+		height: 50px;
+		width: 100%;
+		color: $white;
+		background-color: $orange;
+		border: 2px solid $orange;
+		font-size: 20px;
 		&:hover{
-			background-color: $green !important;
+			background-color: transparent;
+			border: inherit;
 			color: $black;
 		}
 	}

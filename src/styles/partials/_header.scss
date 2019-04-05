@@ -9,6 +9,10 @@
 		color: $orange !important;
 	}
 	
+	&__navbrand{
+		font-family: $navbrand;
+	}
+	
 	&__hamburger{
 		background: none !important;
 		border: none !important;

@@ -53,12 +53,15 @@ export default class ContactPage extends React.Component{
 	render(){
 		let app = this;		
 		return(
-			<ContactComponent
-				validateSubmit = {app.validateSubmit}
-				nameErr = {app.state.isName}
-				emailErr = {app.state.isEmail}
-				telErr = {app.state.isTelephone}
-			/>
+			<div className="[ contact-container ]">
+				<h1 className="[ contact-container__header ]">Contact us</h1>
+				<ContactComponent
+					validateSubmit = {app.validateSubmit}
+					nameErr = {app.state.isName}
+					emailErr = {app.state.isEmail}
+					telErr = {app.state.isTelephone}
+				/>
+			</div>
 		);
 	}
 }

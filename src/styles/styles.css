@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Nunito|Raleway");
 h1 {
-  font-size: 2.25rem; }
+  font-size: 2.25rem;
+  font-family: "Lobster", cursive; }
 
 html {
   height: 100%; }
@@ -25,6 +26,8 @@ body::after {
   font-family: "Nunito", sans-serif; }
   .navigation:hover {
     color: #fd5e53 !important; }
+  .navigation__navbrand {
+    font-family: "Comfortaa", cursive; }
   .navigation__hamburger {
     background: none !important;
     border: none !important; }
@@ -54,15 +57,35 @@ body::after {
     padding-top: 25px;
     display: block; }
 
-.col-about {
-  border: 2px solid #00aeef;
-  padding: 15px; }
-  @media (max-width: 991px) {
-    .col-about--margin {
-      margin: 30px 0 30px 0; } }
-  .col-about__btn:hover {
-    background-color: #07db61 !important;
-    color: #000000; }
+.packages-container {
+  margin-top: 30px; }
+  .packages-container__header {
+    font-family: "Lobster", cursive;
+    font-size: 50px;
+    text-align: center; }
+
+.packages-column {
+  border: 2px solid #fd5e53;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: "Raleway", sans-serif; }
+  .packages-column__header {
+    font-family: "Lobster", cursive; }
+  .packages-column__price {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px; }
+  .packages-column__btn {
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #fd5e53;
+    border: 2px solid #fd5e53;
+    font-size: 20px; }
+    .packages-column__btn:hover {
+      background-color: transparent;
+      border: inherit;
+      color: #000000; }
 
 .homepageContainer {
   margin-top: 30px; }
@@ -88,6 +111,12 @@ body::after {
         color: #00aeef; }
     .col-home__list--active {
       text-decoration: underline; }
+
+.contact-container {
+  margin-top: 30px; }
+  .contact-container__header {
+    font-size: 3.125rem;
+    text-align: center; }
 
 .contact-form {
   padding: 30px;
