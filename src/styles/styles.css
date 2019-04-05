@@ -133,6 +133,15 @@ body::after {
     text-align: center;
     color: #fd5e53; }
 
+.contact-success-container {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5625rem; }
+  .contact-success-container__header {
+    color: #fd5e53;
+    font-size: 3.125rem; }
+
 .contact-form {
   padding: 30px;
   margin: auto;
@@ -141,6 +150,9 @@ body::after {
   border: 2px solid #fd5e53;
   border-radius: 5px;
   margin: 30px auto 30px auto; }
+  @media screen and (max-width: 767px) {
+    .contact-form {
+      width: 100%; } }
   .contact-form__input {
     height: 65px;
     font-size: 18px; }
@@ -163,3 +175,6 @@ body::after {
       border: 2px solid #fd5e53 !important;
       background-color: transparent !important;
       color: #000000; }
+    @media screen and (max-width: 767px) {
+      .contact-form__btn {
+        width: 100%; } }

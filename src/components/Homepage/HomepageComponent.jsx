@@ -27,7 +27,7 @@ export default class HomepageComponent extends React.Component{
 								<Col md="6" className="[ mb-4 ]">
 									<a href="#/packages" >
 										<div className="[ col-home__overlay ]">
-											<img className="[ img-fluid ]" src={require("./../../img/photos/destinations/mykonos.jpg")} alt="bali"/>
+											<img className="[ img-fluid ]" src={require("./../../img/photos/destinations/mykonos.jpg")} alt="Mykonos"/>
 											<span className="[ col-home__img-text ]">Mykonos</span>
 										</div>
 									</a>
@@ -36,8 +36,8 @@ export default class HomepageComponent extends React.Component{
 								<Col md="6" className="[ mb-4 ]">
 									<a href="#/packages">
 										<div className="[ col-home__overlay ]">
-											<img className="[ img-fluid ]" src={require("./../../img/photos/destinations/mykonos.jpg")} alt="Mykonos"/>
-											<span className="[ col-home__img-text ]">Mykonos</span>
+											<img className="[ img-fluid ]" src={require("./../../img/photos/destinations/bali.jpg")} alt="Bali"/>
+											<span className="[ col-home__img-text ]">Bali</span>
 										</div>
 									</a>
 								</Col>

@@ -49,7 +49,7 @@ export default class Packagespage extends React.Component{
 		
 		return(
 			<div className="[ packages-container ]">
-				<h1 class="[ packages-container__header ]">Packages</h1>
+				<h1 className="[ packages-container__header ]">Packages</h1>
 				<Row>
 					{app.state.allPackages}
 				</Row>
