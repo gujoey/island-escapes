@@ -6,9 +6,12 @@ import { Container } from 'reactstrap';
 
 export default class Layout extends React.Component {
 	render() {
-		return (
+		let app = this;
+		let path = app.props.location;
+
+		return (			
 			<div>
-				<NavigationComponent/>
+				<NavigationComponent location={path}/>
 				
 				<Container>
 					{this.props.children}

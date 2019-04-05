@@ -1,11 +1,14 @@
-.navbar-default{
-	background-color: $blue;
+.navigation{
+	background-color: $light-grey !important;
 	font-weight: bold;
 	padding: 15px;
 	text-align: center;
-	& a{ //added 'a' to override bootsrtap spesificity
-		color: $white !important;
+	color: $black !important;
+	font-family: $navigation;
+	&:hover{
+		color: $orange !important;
 	}
+	
 	&__hamburger{
 		background: none !important;
 		border: none !important;
@@ -21,15 +24,8 @@
 			font: 20px bold;
 		}
 	}	
-	&__nav{
-		float: right;
-		& a{ //added 'a' to override bootsrtap spesificity
-			&:hover{
-				color: $black !important;
-			}
-		}
-		&--active a{ //added 'a' to override bootsrtap spesificity
-			color: $black !important;
-		}
+	&__active{
+		color: $orange !important;
+		border-bottom: 1px solid $orange;
 	}
 }

@@ -51,8 +51,7 @@ export default class ContactPage extends React.Component{
 	}
 	
 	render(){
-		let app = this;
-		
+		let app = this;		
 		return(
 			<ContactComponent
 				validateSubmit = {app.validateSubmit}

@@ -1,18 +1,23 @@
 .contact-form{
-	@include clearfix;
-	background-color: $blue;
 	padding: 30px;
-	margin: 30px 30px 0 30px;
-	color: $white;
+	margin: auto;
+	color: $black;
+	width: 60%;
+	border: 2px solid $orange;
+	border-radius: 5px;
+	margin: 30px auto 30px auto;
 	
 	&__input{
-		border: 3px solid $black !important;
-		border-radius: 0 !important;
+		height: 65px;
+		font-size: 18px;
 		&--error{
 			color:$red;
 		}
 		&--required{
 			color: $red;
+		}
+		&--textarea{
+			height: 150px !important;
 		}
 	}
 	
@@ -20,17 +25,17 @@
 		color: $grey;
 	}
 	
-	
 	&__btn{
-		margin-top: 15px;
-		float: right;
+		border: 2px solid $orange;
+		background-color: $orange !important;
 		color: $white;
-		background-color: $green;
-		border-style: none;
-		
+		width: 250px;
+		height: 65px;
+		font-size: 20px;
 		&:hover{
-			background-color: $white !important;
-			color: $black !important;
+			border: 2px solid $orange !important;
+			background-color: transparent !important;
+			color: $black;
 		} 
 	}
 }
