@@ -17,37 +17,29 @@ export default class HomepageComponent extends React.Component{
 
 							<Row className="[ row-eq-height homepageContainer__row ]">
 								<Col md="6" className="[ mb-4 ]">
-									<a href="#/packages">
-										<div className="[ col-home__overlay ]">
-											<img className="[ img-fluid ]" src={require("./../../img/photos/destinations/hawaii.jpg")} 	alt="Hawaii"/>
-											<span className="[ col-home__img-text ]">Hawaii</span>
-										</div>
+									<a className="[ col-home__link ]" href="#/packages">
+										<img className="[ img-fluid  col-home__overlay ]" src={require("./../../img/photos/destinations/hawaii.jpg")} 	alt="Hawaii"/>
+										<span className="[ col-home__img-text ]">Hawaii</span>
 									</a>
 								</Col>
 								<Col md="6" className="[ mb-4 ]">
-									<a href="#/packages" >
-										<div className="[ col-home__overlay ]">
-											<img className="[ img-fluid ]" src={require("./../../img/photos/destinations/mykonos.jpg")} alt="Mykonos"/>
-											<span className="[ col-home__img-text ]">Mykonos</span>
-										</div>
+									<a className="[ col-home__link ]" href="#/packages" >
+										<img className="[ img-fluid col-home__overlay ]" src={require("./../../img/photos/destinations/mykonos.jpg")} alt="Mykonos"/>
+										<span className="[ col-home__img-text ]">Mykonos</span>
 									</a>
 								</Col>
 								
 								<Col md="6" className="[ mb-4 ]">
-									<a href="#/packages">
-										<div className="[ col-home__overlay ]">
-											<img className="[ img-fluid ]" src={require("./../../img/photos/destinations/bali.jpg")} alt="Bali"/>
-											<span className="[ col-home__img-text ]">Bali</span>
-										</div>
+									<a className="[ col-home__link ]" href="#/packages">
+										<img className="[ img-fluid col-home__overlay ]" src={require("./../../img/photos/destinations/bali.jpg")} alt="Bali"/>
+										<span className="[ col-home__img-text ]">Bali</span>
 									</a>
 								</Col>
 								
 								<Col md="6" className="[ mb-4 ]">
-									<a href="#/packages">
-										<div className="[ col-home__overlay ]">
-											<img className="[ img-fluid ]" src={require("./../../img/photos/destinations/santorini.jpg")} alt="Santorini"/>
-											<span className="[ col-home__img-text ]">Santorini</span>
-										</div>
+									<a className="[ col-home__link ]" href="#/packages">
+										<img className="[ img-fluid col-home__overlay ]" src={require("./../../img/photos/destinations/santorini.jpg")} alt="Santorini"/>
+										<span className="[ col-home__img-text ]">Santorini</span>
 									</a>
 								</Col>
 							</Row>

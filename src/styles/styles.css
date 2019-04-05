@@ -115,7 +115,11 @@ body::after {
   .col-home__header-two {
     font-family: "Comfortaa", cursive;
     font-size: 1.75rem; }
+  .col-home__link:hover .col-home__overlay {
+    transition: 0.3s;
+    -webkit-filter: brightness(50%); }
   .col-home__overlay:hover {
+    transition: 0.3s;
     -webkit-filter: brightness(50%); }
   .col-home__img-text {
     position: absolute;

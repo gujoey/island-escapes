@@ -30,8 +30,16 @@
 		@include fontsize(28);
 	}
 	
-	&__overlay{
+	&__link{
+		&:hover .col-home__overlay{
+			transition: 0.3s;
+			-webkit-filter: brightness(50%);
+		}
+	}
+	
+	&__overlay {
 		&:hover{
+			transition: 0.3s;
 			-webkit-filter: brightness(50%);
 		}
 	}
