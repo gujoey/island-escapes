@@ -2,35 +2,27 @@
 	margin-top: 30px;
 }
 
-.row{
-	margin-top: 30px;
-}
-
 .col-home{
-	border: 25px solid $blue;
+	border: 2px solid $orange;
+	border-radius: 5px;
 	padding: 15px;
 	height: 100%;
-	&--margin{
-		@media(max-width:$BPmd){
-			margin: 30px 0 0 0;
-		}
+	margin-top: 30px;
+	
+	&__header{
+		font-family: $headers;
+		text-align: center;
+		margin-bottom: 15px;
+		@include fontsize(40);
 	}
 	
-	&__list{
-		list-style: none;
-		padding-left: 0;
-		text-align: center;
-		
-		& li a{
-			color: black;
-			text-decoration: none;
-			&:hover{
-				color: $blue;
-			}
-		}
-		
-		&--active{
-			text-decoration: underline;
-		}
+	&__img-text{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: $white;
+		font-family: $headers;
+		@include fontsize(50);
 	}
 }
