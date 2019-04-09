@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gujoey/island-escapes/precache-manifest.11caa693e4d0cce31c4ef0111f11df7b.js"
+  "/island-escapes/precache-manifest.f72ea59a04914347e4209d73224f8a97.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/gujoey/island-escapes/index.html", {
+workbox.routing.registerNavigationRoute("/island-escapes/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
