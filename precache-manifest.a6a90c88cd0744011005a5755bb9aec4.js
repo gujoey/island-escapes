@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/island-escapes/static/media/santorini.b05afc72.jpg"
   },
   {
-    "revision": "b9a67c8af4bd5e6f9350",
+    "revision": "45e7db99d80b9ef78a3a",
     "url": "/island-escapes/static/css/main.24889a7b.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/island-escapes/static/media/bali.0f566e69.jpg"
   },
   {
-    "revision": "b9a67c8af4bd5e6f9350",
-    "url": "/island-escapes/static/js/main.d2753ae9.chunk.js"
+    "revision": "45e7db99d80b9ef78a3a",
+    "url": "/island-escapes/static/js/main.f7eef7ba.chunk.js"
   },
   {
     "revision": "b447f9e398272ccfbf1d0ca97b0754b4",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/island-escapes/static/media/capri.280d1810.jpg"
   },
   {
-    "revision": "20d2f4b87156bf19b3110af332760d43",
+    "revision": "cad7519c056a964c4d0a2a827c240ed5",
     "url": "/island-escapes/index.html"
   }
 ];

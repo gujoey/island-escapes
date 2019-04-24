@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/island-escapes/precache-manifest.f72ea59a04914347e4209d73224f8a97.js"
+  "/island-escapes/precache-manifest.a6a90c88cd0744011005a5755bb9aec4.js"
 );
 
 workbox.clientsClaim();
