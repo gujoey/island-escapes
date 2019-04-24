@@ -1,6 +1,9 @@
 # Island Escapes mock website
 This is a website example made for the mock company Island Escapes. The app is made with [React](https://reactjs.org/) and [Reactstrap](https://reactstrap.github.io/).
 
+**Live site:**  
+[https://gujoey.github.io/island-escapes/](https://gujoey.github.io/island-escapes/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 [Install](#install) | [Scripts](#available-scripts) | [Learn more](#learn-more) 
